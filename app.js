@@ -5,7 +5,7 @@ var sys = require('sys')
 
 console.log("hello");
 app.get('/', function (req, res) {
-  res.send('hello world');
+  res.send('hello ');
 });
  
 app.listen(process.env.PORT || 5000);
